@@ -1,0 +1,100 @@
+body {
+	padding-top: 50px;
+	z-index: 0;
+}
+
+.navbar-inverse {
+	background-color: #513420;
+}
+
+.row-header {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.row-content {
+	margin: 0 auto;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+	box-sizing: border-box;
+}
+
+.footer {
+	background-color: #F0D17A;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+a {
+	color: #121535;
+}
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0 auto;
+	background-color: #735735;
+	color: white;
+}
+
+address {
+	font-size: 80%;
+	margin: 0;
+	color: #121535;
+}
+
+.footer .row:first-child {
+	margin-bottom: 10px;
+}
+
+.card-header {
+	background-color: #FED02A;
+}
+
+.reserve-modal__buttons {
+	margin-left: 141px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+
+.fa-sign-in{
+  color: white;
+}
+
+.btn-signin {
+	background-color: #FED02A;
+}
+
+.carousel {
+	background-color: #720720;
+}
+
+.carousel-item {
+	height: 300px;
+}
+
+.carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 300px;
+}
+
+#carousel-button {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.btn-sm {
+	border-radius: 0 !important;
+}
