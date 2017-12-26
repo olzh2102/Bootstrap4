@@ -1,0 +1,108 @@
+$dark-brown: #513420;
+$light-brown: #735735;
+$yellow: #FED02A;
+$light-yellow: #F0D17A;
+
+$carousel-item-height: 300px;
+
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+	margin: 0px auto;
+	padding: $pad-up-down $pad-left-right;
+}
+
+body {
+	padding-top: 50px;
+	z-index: 0;
+}
+
+.navbar-inverse {
+	background-color: $dark-brown;
+}
+
+.jumbotron {
+	@include zero-margin(70px, 30px);
+	background-color: $light-brown;
+	color: white;
+}
+
+.row-header {
+	@include zero-margin(0px, 0px);
+}
+
+.row-content {
+	@include zero-margin(50px, 0px);
+	border-bottom: 1px ridge;
+	min-height: 400px;
+	box-sizing: border-box;
+}
+
+.footer {
+	background-color: $light-yellow;
+	@include zero-margin(20px, 0px);
+
+	.row:first-child {
+		margin-bottom: 10px;
+	}
+}
+
+.card-header {
+	background-color: $yellow;
+}
+
+.reserve-modal__buttons {
+	margin-left: 141px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+
+.fa-sign-in{
+  color: white;
+}
+
+.btn-signin {
+	background-color: $yellow;
+}
+
+.carousel {
+	background-color: #720720;
+
+	.carousel-item {
+		height: $carousel-item-height;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-height: 300px;
+		}
+	}
+}
+
+#carousel-button {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.btn-sm {
+	border-radius: 0 !important;
+}
+
+a {
+	color: #121535;
+}
+
+address {
+	font-size: 80%;
+	margin: 0;
+	color: #121535;
+}
